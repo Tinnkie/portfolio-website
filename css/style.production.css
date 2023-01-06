@@ -1,315 +1,333 @@
 body {
-    background-color: #fff;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.6;
-    padding: 10px;
-    }
-    
-    .about {
-     max-width: auto;
-     margin: auto;
-     text-align: center;
-   }
- 
-   .table {
-     max-width: auto;
-     margin: auto;
-     text-align: center;
-   }
- 
-   .contact {
-     max-width: auto;
-     margin: auto;
-     text-align: center;
-   }
- 
- h1 {
-   font-size: 30px;
-   font-weight: 700;
+  background-color: #fff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 10px;
+  }
+  
+  .about {
+   max-width: auto;
+   margin: auto;
    text-align: center;
-     }
- 
- h2 {
-   font-size: 24px;
-   font-weight: 700;
-     }
- 
- h3 {
-   font-size: 18px;
-   font-weight: 700;
-     }
- 
- a {
-     color: #A12B52;
+ }
+
+ .table {
+   max-width: auto;
+   margin: auto;
+   text-align: center;
+ }
+
+td {
+ border: 1px solid #000;
+ padding: 0.5rem;
+ text-align: center;
    }
- 
- a:visited {
-     color: #832343;
+
+th {
+ border: 1px solid #000;
+ padding: 0.5rem;
+ text-align: center;
    }
- 
- a:hover {
-     text-decoration: none;
-     color: #000;
-     -webkit-transition: 0.5s opacity;
-     transition: 0.5s opacity;
+
+th {
+ background-color: #A12B52;
+ font-size: 18px;
+ color: #fff;
    }
- 
- a:focus {
-     text-decoration: none;
-     color: #000;
-     -webkit-transition: 0.5s opacity;
-     transition: 0.5s opacity;
+
+ .contact {
+   max-width: auto;
+   margin: auto;
+   text-align: center;
+ }
+
+h1 {
+ font-size: 30px;
+ font-weight: 700;
+ text-align: center;
    }
-   
- a:active {
-     color: #A12B52;
+
+h2 {
+ font-size: 24px;
+ font-weight: 700;
    }
- 
- button {
-     /* overwrites browser defaults and resets the border */
-     border: none;
-     /* takes the font from the outer container */
-     display:inline-block;
-     font-family: inherit;
-     /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-     background-color: #A12B52;
-     color: #fff !important;
-     text-decoration: none;
-     /*adds spacing to the button (this will be discussed more in-depth later) */
-     padding: 10px;
-     border-radius: 3px;
-     /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-     border-bottom: 2px solid rgba(0, 0, 0, 0.302);
-     -webkit-transition: 0.9s opacity;
-     transition: 0.9s opacity;
+
+h3 {
+ font-size: 18px;
+ font-weight: 700;
    }
+
+a {
+   color: #A12B52;
+ }
+
+a:visited {
+   color: #832343;
+ }
+
+a:hover {
+   text-decoration: none;
+   color: #000;
+   -webkit-transition: 0.5s opacity;
+   transition: 0.5s opacity;
+ }
+
+a:focus {
+   text-decoration: none;
+   color: #000;
+   -webkit-transition: 0.5s opacity;
+   transition: 0.5s opacity;
+ }
  
- .button {
-     /* overwrites browser defaults and resets the border */
-     border: none;
-     /* takes the font from the outer container */
-     display:inline-block;
-     font-family: inherit;
-     /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-     background-color: #A12B52;
-     color: #fff !important;
-     text-decoration: none;
-     /*adds spacing to the button (this will be discussed more in-depth later) */
-     padding: 10px;
-     border-radius: 3px;
-     /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-     border-bottom: 2px solid rgba(0, 0, 0, 0.302);
-     -webkit-transition: 0.9s opacity;
-     transition: 0.9s opacity;
-   }
- 
- button:hover {
-     /* lets the mouse appear as a hand when hovering over the button */
-     cursor: pointer; 
-     background-color: #000;
-     border-bottom: 2px solid #A12B52;
-     /* reduces the opacity of the button to 80% */
-     opacity: 0.8;
-   }
- 
- button:focus {
-     /* lets the mouse appear as a hand when hovering over the button */
-     cursor: pointer; 
-     background-color: #000;
-     border-bottom: 2px solid #A12B52;
-     /* reduces the opacity of the button to 80% */
-     opacity: 0.8;
-   }
- 
- .button:hover {
-     /* lets the mouse appear as a hand when hovering over the button */
-     cursor: pointer; 
-     background-color: #000;
-     border-bottom: 2px solid #A12B52;
-     /* reduces the opacity of the button to 80% */
-     opacity: 0.8;
-   }
- 
- .button:focus {
-     /* lets the mouse appear as a hand when hovering over the button */
-     cursor: pointer; 
-     background-color: #000;
-     border-bottom: 2px solid #A12B52;
-     /* reduces the opacity of the button to 80% */
-     opacity: 0.8;
-   }
- 
-   .navigation-list__item--active {
-     text-decoration: none;
-   }
- 
-   .page-footer {
-     clear: both;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-orient: vertical;
-     -webkit-box-direction: normal;
-         -ms-flex-direction: column;
-             flex-direction: column;
-     text-align: center;
-   }
- 
-   .profile__portrait {
-     float: left;
-     width: 50%;
-     height: auto;
-     max-width: 400px;
-     margin-right: 40px;
-     border-radius: 50%;
-   }
- 
-   .profile {
-     max-width: 700px;
-     margin: 0 auto;
-   }
- 
-   * {
-     -webkit-box-sizing: border-box;
-             box-sizing: border-box;
-   }
- 
-   .page-header {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     width: 100%;
-     padding: 20px;
-     border-bottom: 1px solid #d3d3d3;
-   }
- 
-   /* adds base width to navigation */
-   .page-header__item {
-     -webkit-box-flex: 0;
-         -ms-flex: 0 1 200px;
-             flex: 0 1 200px;
-     width: 30%;
-     height: -webkit-fit-content;
-     height: -moz-fit-content;
-     height: fit-content;
-   }
- 
-   /* navigation is right alligned */
-   .page-header__item:last-child {
-     -webkit-box-flex: 1;
-         -ms-flex-positive: 1;
-             flex-grow: 1;
-     text-align: right;
-   }
- 
-   /* erases the dots in the menu list */
-   .navigation-list {
-     list-style-type: none;
-   }
- 
-   /* alignes menu items in a row */
-   .navigation-list li {
-     display: inline-block;
-     margin-left: 15px;
-   }
- 
+a:active {
+   color: #A12B52;
+ }
+
+button {
+   /* overwrites browser defaults and resets the border */
+   border: none;
+   /* takes the font from the outer container */
+   display:inline-block;
+   font-family: inherit;
+   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+   background-color: #A12B52;
+   color: #fff !important;
+   text-decoration: none;
+   /*adds spacing to the button (this will be discussed more in-depth later) */
+   padding: 10px;
+   border-radius: 3px;
+   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+   border-bottom: 2px solid rgba(0, 0, 0, 0.302);
+   -webkit-transition: 0.9s opacity;
+   transition: 0.9s opacity;
+ }
+
+.button {
+   /* overwrites browser defaults and resets the border */
+   border: none;
+   /* takes the font from the outer container */
+   display:inline-block;
+   font-family: inherit;
+   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+   background-color: #A12B52;
+   color: #fff !important;
+   text-decoration: none;
+   /*adds spacing to the button (this will be discussed more in-depth later) */
+   padding: 10px;
+   border-radius: 3px;
+   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+   border-bottom: 2px solid rgba(0, 0, 0, 0.302);
+   -webkit-transition: 0.9s opacity;
+   transition: 0.9s opacity;
+ }
+
+button:hover {
+   /* lets the mouse appear as a hand when hovering over the button */
+   cursor: pointer; 
+   background-color: #000;
+   border-bottom: 2px solid #A12B52;
+   /* reduces the opacity of the button to 80% */
+   opacity: 0.8;
+ }
+
+button:focus {
+   /* lets the mouse appear as a hand when hovering over the button */
+   cursor: pointer; 
+   background-color: #000;
+   border-bottom: 2px solid #A12B52;
+   /* reduces the opacity of the button to 80% */
+   opacity: 0.8;
+ }
+
+.button:hover {
+   /* lets the mouse appear as a hand when hovering over the button */
+   cursor: pointer; 
+   background-color: #000;
+   border-bottom: 2px solid #A12B52;
+   /* reduces the opacity of the button to 80% */
+   opacity: 0.8;
+ }
+
+.button:focus {
+   /* lets the mouse appear as a hand when hovering over the button */
+   cursor: pointer; 
+   background-color: #000;
+   border-bottom: 2px solid #A12B52;
+   /* reduces the opacity of the button to 80% */
+   opacity: 0.8;
+ }
+
+ .navigation-list__item--active {
+   text-decoration: none;
+ }
+
+ .page-footer {
+   clear: both;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   text-align: center;
+ }
+
+ .profile__portrait {
+   float: left;
+   width: 50%;
+   height: auto;
+   max-width: 400px;
+   margin-right: 40px;
+   border-radius: 50%;
+ }
+
+ .profile {
+   max-width: 700px;
+   margin: 0 auto;
+ }
+
+ * {
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+ }
+
+ .page-header {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   width: 100%;
+   padding: 20px;
+   border-bottom: 1px solid #d3d3d3;
+ }
+
+ /* adds base width to navigation */
+ .page-header__item {
+   -webkit-box-flex: 0;
+       -ms-flex: 0 1 200px;
+           flex: 0 1 200px;
+   width: 30%;
+   height: -webkit-fit-content;
+   height: -moz-fit-content;
+   height: fit-content;
+ }
+
+ /* navigation is right alligned */
+ .page-header__item:last-child {
+   -webkit-box-flex: 1;
+       -ms-flex-positive: 1;
+           flex-grow: 1;
+   text-align: right;
+ }
+
+ /* erases the dots in the menu list */
+ .navigation-list {
+   list-style-type: none;
+ }
+
+ /* alignes menu items in a row */
+ .navigation-list li {
+   display: inline-block;
+   margin-left: 15px;
+ }
+
+ .grid {
+   display: -ms-grid;
+   display: grid;
+ }
+
+ .grid__item {
+   background-color: #d3d3d3;
+   padding: 20px;
+ }
+
+ .grid {
+   display: -ms-grid;
+   display: grid;
+   -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 20px;
+ }
+
+ @media all and (max-width: 500px) {
    .grid {
-     display: -ms-grid;
-     display: grid;
+     -ms-grid-columns: 1fr;
+     grid-template-columns: 1fr;
    }
- 
-   .grid__item {
-     background-color: #d3d3d3;
-     padding: 20px;
-   }
- 
+ }
+ @media all and (min-width: 500px) and (max-width: 750px){
    .grid {
-     display: -ms-grid;
-     display: grid;
-     -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-gap: 20px;
+     -ms-grid-columns: 1fr 20px 1fr;
+     grid-template-columns: 1fr 1fr;
    }
+ }
+ @media all and (max-width: 750px) {
+   .grid {
+     grid-gap: 10px;
+   }
+   .grid__item:last-child {
+     grid-column: auto / auto;
+     grid-row: auto / auto;
+   }
+   h1 {
+     font-size: 22px;
+   }
+ }
+
+ @-webkit-keyframes color-change {
+   0% {
+     fill: #030200;
+   }
+   50% {
+     fill: #000000;
+   }
+   100% {
+     fill: #A12B52;
+   }
+ }
+
+ @keyframes color-change {
+   0% {
+     fill: #030200;
+   }
+   50% {
+     fill: #000000;
+   }
+   100% {
+     fill: #A12B52;
+   }
+ }
  
-   @media all and (max-width: 500px) {
-     .grid {
-       -ms-grid-columns: 1fr;
-       grid-template-columns: 1fr;
-     }
-   }
-   @media all and (min-width: 500px) and (max-width: 750px){
-     .grid {
-       -ms-grid-columns: 1fr 20px 1fr;
-       grid-template-columns: 1fr 1fr;
-     }
-   }
-   @media all and (max-width: 750px) {
-     .grid {
-       grid-gap: 10px;
-     }
-     .grid__item:last-child {
-       grid-column: auto / auto;
-       grid-row: auto / auto;
-     }
-     h1 {
-       font-size: 22px;
-     }
-   }
+ .color_change_cloud {
+   -webkit-animation: 2s color-change infinite alternate linear;
+           animation: 2s color-change infinite alternate linear;
+ }
  
-   @-webkit-keyframes color-change {
-     0% {
-       fill: #030200;
-     }
-     50% {
-       fill: #000000;
-     }
-     100% {
-       fill: #A12B52;
-     }
+ @-webkit-keyframes cloud-move {
+   from {
+     -webkit-transform: translate(0, 50px);
+             transform: translate(0, 50px);
    }
+   to {
+     -webkit-transform: translate(200px, 50px);
+             transform: translate(200px, 50px);
+   }
+ }
  
-   @keyframes color-change {
-     0% {
-       fill: #030200;
-     }
-     50% {
-       fill: #000000;
-     }
-     100% {
-       fill: #A12B52;
-     }
+ @keyframes cloud-move {
+   from {
+     -webkit-transform: translate(0, 50px);
+             transform: translate(0, 50px);
    }
-   
-   .color_change_cloud {
-     -webkit-animation: 2s color-change infinite alternate linear;
-             animation: 2s color-change infinite alternate linear;
+   to {
+     -webkit-transform: translate(200px, 50px);
+             transform: translate(200px, 50px);
    }
-   
-   @-webkit-keyframes cloud-move {
-     from {
-       -webkit-transform: translate(0, 50px);
-               transform: translate(0, 50px);
-     }
-     to {
-       -webkit-transform: translate(200px, 50px);
-               transform: translate(200px, 50px);
-     }
-   }
-   
-   @keyframes cloud-move {
-     from {
-       -webkit-transform: translate(0, 50px);
-               transform: translate(0, 50px);
-     }
-     to {
-       -webkit-transform: translate(200px, 50px);
-               transform: translate(200px, 50px);
-     }
-   }
-   
-   .cloud {
-     -webkit-animation: 10s cloud-move infinite alternate linear;
-             animation: 10s cloud-move infinite alternate linear;
-   }
+ }
+ 
+ .cloud {
+   -webkit-animation: 10s cloud-move infinite alternate linear;
+           animation: 10s cloud-move infinite alternate linear;
+ }
