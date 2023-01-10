@@ -222,6 +222,18 @@ button:focus {
    height: fit-content;
  }
 
+ @media (max-width: 767px) {
+   .page-header__item {
+       width:380px;
+   }
+}
+
+@media (max-width: 480px) {
+   .page-header__item {
+       width:275px;
+   }
+}
+
  /* navigation is right alligned */
  .page-header__item:last-child {
    -webkit-box-flex: 1;
