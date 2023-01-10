@@ -75,6 +75,7 @@ a:hover {
    text-decoration: none;
    color: #000;
    -webkit-transition: 0.5s opacity;
+   -o-transition: 0.5s opacity;
    transition: 0.5s opacity;
  }
 
@@ -82,6 +83,7 @@ a:focus {
    text-decoration: none;
    color: #000;
    -webkit-transition: 0.5s opacity;
+   -o-transition: 0.5s opacity;
    transition: 0.5s opacity;
  }
  
@@ -105,6 +107,7 @@ button {
    /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
    border-bottom: 2px solid rgba(0, 0, 0, 0.302);
    -webkit-transition: 0.9s opacity;
+   -o-transition: 0.9s opacity;
    transition: 0.9s opacity;
  }
 
@@ -124,6 +127,7 @@ button {
    /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
    border-bottom: 2px solid rgba(0, 0, 0, 0.302);
    -webkit-transition: 0.9s opacity;
+   -o-transition: 0.9s opacity;
    transition: 0.9s opacity;
  }
 
