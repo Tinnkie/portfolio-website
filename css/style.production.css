@@ -222,17 +222,6 @@ button:focus {
    height: fit-content;
  }
 
- @media screen and (max-width: 960px) {
-   .page-header__item {
-     float: none;
-   }
- 
-   .page-header__item {
-     width: 50%;
-     height: auto;
-   }
- }
-
  /* navigation is right alligned */
  .page-header__item:last-child {
    -webkit-box-flex: 1;
