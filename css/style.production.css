@@ -43,6 +43,10 @@ th {
    text-align: center;
  }
 
+ .purple-background {
+   background-color: #A12B52;
+ }
+
 h1 {
  font-size: 30px;
  font-weight: 700;
