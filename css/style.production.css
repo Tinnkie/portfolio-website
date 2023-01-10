@@ -228,8 +228,7 @@ button:focus {
    }
  
    .page-header__item {
-     width: 100%;
-     max-width: 200px;
+     width: 50%;
      height: auto;
    }
  }
