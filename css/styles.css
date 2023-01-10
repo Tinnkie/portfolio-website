@@ -164,7 +164,7 @@ button:focus,
   
     .page-header__item {
       width: 50%;
-      height: fit-content;
+      height: auto;
     }
   }
 

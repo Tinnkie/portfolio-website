@@ -229,9 +229,7 @@ button:focus {
  
    .page-header__item {
      width: 50%;
-     height: -webkit-fit-content;
-     height: -moz-fit-content;
-     height: fit-content;
+     height: auto;
    }
  }
 
