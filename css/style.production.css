@@ -212,7 +212,7 @@ button:focus {
    -webkit-box-flex: 0;
        -ms-flex: 0 1 200px;
            flex: 0 1 200px;
-   width: 30%;
+   width: 20%;
    height: -webkit-fit-content;
    height: -moz-fit-content;
    height: fit-content;
