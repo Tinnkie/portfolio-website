@@ -181,13 +181,6 @@ button:focus,
     margin-left: 15px;
   }
 
-  @media all and (max-width: 700px) {
-    .navigation-list {
-      display: block;
-      flex-direction: row;
-    }
-  }
-
   .grid {
     display: grid;
   }
