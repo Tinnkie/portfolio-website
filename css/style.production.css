@@ -252,7 +252,7 @@ button:focus {
 
  @media all and (max-width: 700px) {
    .navigation-list {
-     display: list-item;
+     display: block;
      -webkit-box-orient: horizontal;
      -webkit-box-direction: normal;
          -ms-flex-direction: row;
