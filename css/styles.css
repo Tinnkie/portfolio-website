@@ -157,6 +157,13 @@ button:focus,
     height: fit-content;
   }
 
+  @media all and (max-width: 500px) {
+    .page-header__item {
+      width: 30%;
+      height: fit-content;
+    }
+  }
+
   /* navigation is right alligned */
   .page-header__item:last-child {
     flex-grow: 1;

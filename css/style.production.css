@@ -222,6 +222,15 @@ button:focus {
    height: fit-content;
  }
 
+ @media all and (max-width: 500px) {
+   .page-header__item {
+     width: 30%;
+     height: -webkit-fit-content;
+     height: -moz-fit-content;
+     height: fit-content;
+   }
+ }
+
  /* navigation is right alligned */
  .page-header__item:last-child {
    -webkit-box-flex: 1;
@@ -267,7 +276,7 @@ button:focus {
  }
  @media all and (min-width: 500px) and (max-width: 750px){
    .grid {
-     -ms-grid-columns: 1fr 20px 1fr;
+     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
      grid-template-columns: 1fr 1fr 1fr;
    }
  }
