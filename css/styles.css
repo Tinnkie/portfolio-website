@@ -162,14 +162,7 @@ button:focus,
       width: 30%;
       height: fit-content;
     }
-    .page-header {
-      display: flex;
-      width: 100%;
-      padding: 10px;
-      border-bottom: 1px solid var(--lightgray);
-    }
   }
-
 
   /* navigation is right alligned */
   .page-header__item:last-child {
