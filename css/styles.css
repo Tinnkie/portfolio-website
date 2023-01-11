@@ -183,7 +183,7 @@ button:focus,
 
   @media all and (max-width: 700px) {
     .navigation-list {
-      display: block;
+      display: list-item;
       flex-direction: row;
     }
   }
