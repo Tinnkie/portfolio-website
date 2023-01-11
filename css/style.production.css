@@ -229,7 +229,16 @@ button:focus {
      height: -moz-fit-content;
      height: fit-content;
    }
+   .page-header {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     width: 100%;
+     padding: 10px;
+     border-bottom: 1px solid #d3d3d3;
+   }
  }
+
 
  /* navigation is right alligned */
  .page-header__item:last-child {
