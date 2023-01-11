@@ -214,8 +214,8 @@ button:focus {
  /* adds base width to navigation */
  .page-header__item {
    -webkit-box-flex: 0;
-       -ms-flex: 0 1 200px;
-           flex: 0 1 200px;
+       -ms-flex: 0 1 150px;
+           flex: 0 1 150px;
    width: 30%;
    height: -webkit-fit-content;
    height: -moz-fit-content;
@@ -224,7 +224,7 @@ button:focus {
 
  @media all and (max-width: 750px) {
    .page-header__item {
-     width: 100%;
+     width: 20%;
    }
  }
 
