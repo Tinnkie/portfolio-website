@@ -160,7 +160,6 @@ button:focus,
   @media all and (max-width: 750px) {
     .page-header__item {
       width: 30%;
-      height: fit-content;
     }
   }
 

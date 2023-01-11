@@ -225,9 +225,6 @@ button:focus {
  @media all and (max-width: 750px) {
    .page-header__item {
      width: 30%;
-     height: -webkit-fit-content;
-     height: -moz-fit-content;
-     height: fit-content;
    }
  }
 
