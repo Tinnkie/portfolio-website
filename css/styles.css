@@ -195,6 +195,11 @@ button:focus,
     grid-gap: 20px;
   }
 
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
   @media all and (max-width: 500px) {
     .grid {
       grid-template-columns: 1fr;
